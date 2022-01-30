@@ -1,0 +1,227 @@
+*{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    text-decoration:none;
+    box-sizing:none;
+}
+body{
+    background-color:lightpink;
+}
+nav{
+    display:flex;
+    align-items: center;
+    background-color:black;
+    height:100px;
+    width:100%;
+}
+#h3{
+    font-size: 40px;
+    color: hotpink;
+    font-family: cursive;
+}
+.menu{
+     display:flex;
+     margin-left: 120px;
+      font-size: 20px;
+      gap:2em ;
+}
+.menu li a{
+    color:deeppink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    display: block;
+    border-radius: 50%;
+    height: 300px;
+     margin-left: 500px;
+     opacity: 1;
+}
+#fifth{
+      margin-top: 60px;
+      font-size: 100px;
+      font-family:cursive;
+      color:deeppink
+}
+a{
+    font-size: 20px;
+}
+#home{
+    font-size:x-large;
+    color:deeppink;
+}
+#first{
+    font-size:x-large;
+}
+#about{
+    color:deeppink;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#second{
+    font-size: x-large;
+}
+#skills{
+    font-size: x-large;
+    color:deeppink;
+}
+#third{
+    font-size: x-large;
+}
+.image{
+    border-radius: 0;
+}
+.image2{
+    border-radius: 0;
+}
+.image3{
+    border-radius: 0;
+}
+#contact{
+    font-size: x-large;
+    margin-left: 580px;
+    color:deeppink;
+}
+#fourth{
+    font-size: x-large;
+    margin-left: 550px;
+}
+#formctrl{
+    
+    margin-left: 500px;
+    border-radius: 20px;
+    background-color:dimgray;
+    padding:20px 30px 40px;
+    margin-right: 450px;
+}
+#sixth{
+     width:50px;
+     height: 30px;
+     margin-left: 950px;
+     margin-bottom: 60px;
+}
+.checkbtn{
+    font-size: 20px;
+    color:aqua;
+    cursor:pointer;
+    float:right;
+    transform:translate(300%);
+    
+    
+}
+#check{
+   display: none;
+}
+@media(max-width:900px){
+    #h3{
+        font-size:25px;
+        margin-left: 65px;
+        margin-bottom: 20px;
+        font-family:cursive;
+    }
+    #fifth{
+        font-size: 30px;
+        margin-right: 250px;
+        font-family: cursive;
+    }
+    img{
+        float: right;
+        margin-right: 150px;
+        height: 300px;
+        /* margin-left: 500px; */
+    }
+    a{
+        margin-left: 20px;
+    }
+
+    #home{
+        font-size:larger;
+        margin-right: 150px;
+    }
+    #first{
+        font-size:larger;
+        margin-right: 90px;
+    }
+    #about{
+        font-size:larger;
+        margin-right: 150px;
+    }
+    #second{
+        font-size:larger;
+        margin-right: 90px;
+    }
+    #third{
+        font-size:larger;
+        margin-right: 95px;
+    }
+    #skills{
+        margin-right: 95px;
+        font-size: larger;
+    }
+    .image{
+        border-radius: 0;
+        margin-right: 0px;
+        margin-left: 100%;
+    }
+    .image2{
+        border-radius: 0;
+        margin-right: 0px;
+        margin-left: 100%;
+    }
+    .image3{
+        border-radius: 0;
+        margin-right: 0px;
+        margin-left: 100%;
+    }
+    #contact{
+        font-size: x-large;
+        margin-left: 80px;
+    }
+    #fourth{
+        font-size: x-large;
+        margin-left:90px ;
+    } 
+     #formctrl{
+        width:50%;
+        margin-left:90px ;
+     }   
+    }
+@media(max-width:700px){
+    nav{
+        width: 200%;
+    }
+    .checkbtn{
+        display:block;
+        background-color: aqua;
+    }
+    .menu{
+        display:block;
+        position:absolute;
+        background-color: dimgray;
+        height: 500px;
+        width:50%;
+        right:0;
+        /* left:; */
+        /* margin-top: 60px; */
+        text-align: center;
+        /* padding: 10px 0; */
+    }
+    
+    .menu li{
+         margin-top:90px;
+    }
+    .menu.li:hover{
+        display: inline-block;
+        background-color: aliceblue;
+        transition: 0.3 ease-in;
+
+    }
+    input[type=checkbox],select{
+        display: block;
+    }
+    
+
+}
+
+
